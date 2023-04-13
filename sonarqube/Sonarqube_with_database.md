@@ -4,11 +4,11 @@
 SonarQube is an open-source static testing analysis software, it is used by developers to manage source code quality and consistency.
 ## 🧰 Prerequisites
 1. Need an EC2 instance (min t2.small)
-2. Install Java-11
+2. Install Java-17
   ```sh 
    apt-get update   
-   apt  list | grep openjdk-11  
-   apt-get install openjdk-11-jdk -y   
+   apt  list | grep openjdk-17  
+   apt-get install openjdk-17-jdk -y   
    ```
 
 ## Install & Setup Postgres Database for SonarQube
